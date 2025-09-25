@@ -147,6 +147,11 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 [Diseño de Mockups](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/tree/main/mockups)
 
 ---
+
+## Diagrama de Flujo
+[Diagrama](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/blob/main/Diagramas/Diagrama%20de%20Flujo.png)
+
+---
 ## Liberías usadas con Angular
 - Bootstrap
 
