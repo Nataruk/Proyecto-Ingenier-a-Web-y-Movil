@@ -155,11 +155,9 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 
 ## Patrones de Diseño UX
 
-- Patrón de lectura F: la existencia de la barra superior y que la barra de búsqueda se posicione en la mitad superior del inicio evidencian la consideración de este patrón para la creación de pantallas.
+- Patrón de lectura F: La existencia de la barra superior y que la barra de búsqueda se posicione en la mitad superior del inicio evidencian la consideración de este patrón para la creación de pantallas.
 
-- Tab Bar / Bottom Navigation: aunque se especifica que se utiliza una barra superior, esta se relaciona directamente con estos patrones de navegación que permiten acceder rápido a contenidos clave.
-
-- 
+- Tab Bar / Bottom Navigation: Aunque se especifica que se utiliza una barra superior, esta se relaciona directamente con estos patrones de navegación que permiten acceder rápido a contenidos clave.
 
 ---
 
