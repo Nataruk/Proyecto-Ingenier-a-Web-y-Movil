@@ -3,7 +3,7 @@
 - Vicente Parada
 - Raúl Rozas
 
-# Red social para la clasificación de profesores
+# Red social para la clasificación de profesores (ProfeRanking)
 
 ##  Índice
 1. [Resumen del Proyecto](#resumen-del-proyecto)
