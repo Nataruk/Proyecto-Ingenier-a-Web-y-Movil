@@ -139,7 +139,7 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 
 ---
 ## Arquitectura de la Información 
-[Estructura de Navegación](https://whimsical.com/escuelainf-4qgXnPptro4CqvEugsGNNZ )
+[Diagrama](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/blob/main/Diagramas/Diagrama%20de%20Flujo.png)
 
 ## Patrones UX
 
