@@ -1,16 +1,12 @@
-/* Responsive card – flexible height */
 .responsive-square-card {
   width: 90%;
   max-width: 800px;
   margin: auto;
   padding: 1rem;
-  
-  /* Remove aspect-ratio to allow flexible height */
-  height: auto;      /* let content define height */
-  max-height: none;  /* remove previous limitation */
+  height: auto;
+  max-height: none; 
 }
 
-/* Bigger icon */
 .icon-wrapper {
   display: flex;
   justify-content: center;
@@ -20,21 +16,19 @@
   font-size: clamp(4rem, 8vw, 6rem);
 }
 
-/* Centered, bigger title */
 ion-card-title {
   text-align: center;
-  font-size: clamp(1.8rem, 3vw, 2.2rem); /* slightly bigger */
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
   font-weight: 200;
   margin-bottom: 1rem;
 }
 
-/* Grid styling */
 ion-grid {
   width: 100%;
 }
 
 ion-row {
-  margin-bottom: 16px; /* more space between rows */
+  margin-bottom: 16px;
 }
 
 ion-col {
@@ -42,11 +36,10 @@ ion-col {
   flex-direction: column;
 }
 
-/* Labels above inputs and bigger font */
 ion-item ion-label {
-  font-size: clamp(1.2rem, 2vw, 1.5rem);  /* increased font size */
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 500;
-  margin-bottom: 0.5rem; /* more spacing */
+  margin-bottom: 0.5rem; 
 }
 
 ion-item {
@@ -54,12 +47,11 @@ ion-item {
   --inner-padding-end: 0.5rem;
 }
 
-/* Button styling */
 ion-button.primary {
-  font-size: 1.2rem;          /* bigger text */
-  padding: 0.8rem 1.5rem;     /* taller button */
-  max-width: 250px;           /* limit width */
-  width: 100%;                /* scales up to max-width */
-  display: block;             /* ensures centering works */
-  margin: 20px auto 0 auto;   /* top margin + horizontal centering */
+  font-size: 1.2rem;      
+  padding: 0.8rem 1.5rem;  
+  max-width: 250px;       
+  width: 100%;             
+  display: block;          
+  margin: 20px auto 0 auto;  
 }
