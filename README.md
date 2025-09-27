@@ -139,7 +139,7 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 
 ---
 ## Arquitectura de la Información 
-[Diagrama](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/blob/main/Diagramas/Diagrama%20de%20Flujo.png)
+[Diagrama](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/blob/main/Diagramas/Diagrama%20de%20Flujo%20-%20ProfeRanking.png)
 
 ## Patrones UX
 
