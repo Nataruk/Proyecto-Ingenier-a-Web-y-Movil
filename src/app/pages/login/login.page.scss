@@ -1,0 +1,108 @@
+/* Title */
+.titlePrimary {
+  text-align: center;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2vw;
+}
+
+/* Responsive card */
+.responsive-card {
+  width: 90vw;
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  height: auto;        /* allow content to expand */
+}
+
+/* Icon */
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2vh 0;
+}
+.big-icon {
+  font-size: clamp(4rem, 8vw, 6rem); /* match register page */
+}
+
+/* Card titles */
+
+ion-card-content {
+  position: relative; /* positioning context */
+}
+
+/* Reset styles just for volver button */
+ion-button.volver-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+
+  /* override global ion-button styles */
+  max-width: none;
+  width: auto !important;
+  display: inline-flex !important;
+  margin: 0 !important;
+
+  font-size: 0.9rem;  /* small text */
+  --padding-start: 0.5rem;
+  --padding-end: 0.5rem;
+  --border-radius: 6px;
+}
+
+ion-card-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 3vw, 2rem); /* match register page */
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+ion-card-subtitle {
+  text-align: center;
+  font-size: clamp(1rem, 2.5vw, 1.3rem); /* slightly bigger */
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+ion-item ion-label {
+  font-size: clamp(1.2rem, 2vw, 1.4rem); /* match register page */
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Inputs */
+ion-item {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  --background: transparent; /* remove grey background */
+  --padding-start: 0.5rem;
+  --inner-padding-end: 0.5rem;
+}
+
+ion-input {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  --padding-top: 0.75rem;
+  --padding-bottom: 0.75rem;
+  --padding-start: 1rem;
+  --padding-end: 1rem;
+  --background: transparent; /* remove grey background */
+  --placeholder-color: var(--ion-color-medium);
+  --placeholder-opacity: 1;
+}
+
+/* Button */
+ion-button {
+  font-size: 1.2rem;          /* match register page */
+  max-width: 450px;
+  width: 100%;
+  display: block;
+  margin: 20px auto 0 auto;   /* center horizontally */
+  border-radius: 8px;         /* optional: rounded like register page */
+}
