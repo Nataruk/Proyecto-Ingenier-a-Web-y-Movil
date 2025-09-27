@@ -162,7 +162,7 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 ---
 
 ## Prototipo de diseño 
-[Figma - Prototipo de Gestión de Productos](https://www.figma.com/design/P5ZCkmvzJPXbf0Q4MrjiHx/Dise%C3%B1oprototipos?node-id=0-1&t=yTsY3fzxhUPc6GON-1)
+[Diseño de Mockups](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/tree/main/mockups)
 
 ---
 ## Liberías usadas con Angular
