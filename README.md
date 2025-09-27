@@ -1,24 +1,24 @@
-## Presentado por:
+# Presentado por:
 - Camilo Mondaca
 - Vicente Parada
 - Raúl Rozas
 
 # Red social para la clasificación de profesores
 
-# Índice
+##  Índice
 1. [Resumen del Proyecto](#resumen-del-proyecto)
 2. [Requerimientos](#requerimientos)
 3. [Arquitectura de la Información](#arquitectura-de-la-información)
-4. [Diseño de prototipos](#prototipo-de-diseño)
-5. [Librerías en Angular](#liberías-usadas-con-angular)
+3. [Diseño de prototipos](#prototipo-de-diseño)
+4. [Librerías en Angular](#liberías-usadas-con-angular)
 
-# Resumen del Proyecto
+## Resumen del Proyecto
 Este proyecto tiene el fin de crear una red social que permita a sus usuarios buscar, calificar y revisar las calificaciones de sus profesores, al estilo de Rate My Teacher. El proyecto tiene como objetivo entregar información acerca de la enseñanza y dificultad del profesor al usuario, con el fin de conocer de antemano el estilo de aprendizaje y otras cualidades del dicho profesor, antes de tomar un ramo, ayudando a decidir de manera informada
 
 El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza superior, entregando una plataforma donde se puede compartir sus experiencias universitarias en el ámbito de la enseñanza recibida, como también informarse acerca de sus docentes.
 
 ---
-# Requerimientos
+## Requerimientos
 
 ## Roles del Sistema
 - **Administrador**: Control total sobre el sistema.
@@ -141,15 +141,30 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 ## Arquitectura de la Información 
 [Estructura de Navegación](https://whimsical.com/escuelainf-4qgXnPptro4CqvEugsGNNZ )
 
+## Patrones UX
+
+- Barra superior de navegación: se cuenta con una barra superior que permite navegar fácilmente por el sitio, esta puede ser utilizada tanto por usuarios como visualizadores.
+
+- Barra de búsqueda: el inicio del sitio cuenta con una barra que permite buscar profesor, esta puede ser utilizada tanto por usuarios como visualizadores.
+
+- Publicaciones con comentarios: se pueden realizar comentarios dentro de las publicaciones, permitiendo las relaciones e interacción entre usuarios. Esta no puede ser utilizada por visualizadores.
+
+- Likes y dislikes en publicaciones: se permite calificar con Like o Dislike una publicación realizada por un usuario, permitiendo las relaciones e interacción entre usuarios. Esta no puede ser utilizada por visualizadores.
+
+- Calificar profesores: se permite buscar profesores y clasificarlos en base a determinadas características, permitiendo las relaciones e interacción entre usuarios. Esta no puede ser utilizada por visualizadores.
+
+## Patrones de Diseño UX
+
+- Patrón de lectura F: la existencia de la barra superior y que la barra de búsqueda se posicione en la mitad superior del inicio evidencian la consideración de este patrón para la creación de pantallas.
+
+- Tab Bar / Bottom Navigation: aunque se especifica que se utiliza una barra superior, esta se relaciona directamente con estos patrones de navegación que permiten acceder rápido a contenidos clave.
+
+- 
+
 ---
 
-## Diseño de prototipo Web y Móvil
-[Diseño de Mockups](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/tree/main/mockups)
-
----
-
-## Diagrama de Flujo
-[Diagrama](https://github.com/Nataruk/Proyecto-Ingenier-a-Web-y-Movil/blob/main/Diagramas/Diagrama%20de%20Flujo.png)
+## Prototipo de diseño 
+[Figma - Prototipo de Gestión de Productos](https://www.figma.com/design/P5ZCkmvzJPXbf0Q4MrjiHx/Dise%C3%B1oprototipos?node-id=0-1&t=yTsY3fzxhUPc6GON-1)
 
 ---
 ## Liberías usadas con Angular
@@ -163,3 +178,4 @@ El proyecto tiene un enfoque dirigido principalmente a estudiantes de enseñanza
 - **SASS** (para estilos)
 - **RxJS** (para manejo reactivo)
 - **Angular Router** (para navegación entre vistas)
+
